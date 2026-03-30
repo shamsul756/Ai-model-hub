@@ -1,4 +1,7 @@
 import React from 'react';
+import { BsFacebook } from 'react-icons/bs';
+import { FaInstagramSquare } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -21,14 +24,15 @@ const Footer = () => {
 
 
                     </div>
+                    
 
                     {/* Quick Links */}
                     <div className="md:col-span-2">
-                        <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>     
+                        <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
                         <ul className="space-y-4 text-zinc-400">
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                   Features
+                                    Features
                                 </a>
                             </li>
                             <li>
@@ -74,18 +78,18 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-
-                    <div className="md:col-span-3">
+<div className='flex gap-2 '>
+                    <div className="md:col-span-2">
                         <h3 className="text-white font-semibold mb-6 text-lg">Resources </h3>
                         <ul className="space-y-4 text-zinc-400">
-                            <li> 
+                            <li>
                                 <a href="#" className="hover:text-white transition">
-                                   Documentation
+                                    Documentation
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition">
-                                     Help
+                                    Help
                                 </a>
                             </li>
                             <li>
@@ -93,29 +97,58 @@ const Footer = () => {
                                     Center
                                 </a>
                             </li>
-                               <li>
+                            <li>
                                 <a href="#" className="hover:text-white transition">
                                     Community
                                 </a>
                             </li>
-                               <li>
+                            <li>
                                 <a href="#" className="hover:text-white transition">
                                     Contract
                                 </a>
                             </li>
+
                         </ul>
+                      
+                     
+                    
                     </div>
+                     {/* social icon  */}
+                      <div className='px-7 ml-[75px]'>
+                       <p className='text-white font-semi-bold text-xl'> Social Links </p>
+                       <div className='list-none flex gap-3 mx-auto'>
+                       <li className='text-white py-4 text-2xl hover:text-gray-600'><BsFacebook/></li>
+                       <li className='text-white py-4 text-2xl hover:text-gray-600'><FaXTwitter/></li>
+                       <li className='text-white py-4 text-2xl hover:text-gray-600'><FaInstagramSquare/></li>
+                       </div>
+                      </div>
+                      </div>
                 </div>
+                
+           
 
                 {/* Bottom Bar */}
                 <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-                    <div>© {new Date().getFullYear()} AI Hub. All rights reserved.</div>
+                    <div>© {new Date().getFullYear()} Digitools. All rights reserved..</div>
 
                     <div className="flex gap-6">
-                        <a href="#" className="hover:text-red-400 transition">
-                            Made with ❤️ for AI enthusiasts
-                        </a>
+                        <li className='list-none'>
+                            <a href="#" className="hover:text-red-400 transition">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li className='list-none'>
+                            <a href="#" className="hover:text-red-400 transition">
+                                Terms of service
+                            </a>
+                        </li> <li className='list-none'>
+                            <a href="#" className="hover:text-red-400 transition">
+                                Cookies
+                            </a>
+                        </li>
+                        
                     </div>
+                    
                 </div>
             </div>
         </footer>
