@@ -12,7 +12,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center hidden md:flex">
-                    <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+                    <ul className="menu menu-horizontal gap-2 px-1 text-lg">
                         <li><a className='bg-gradient-to-t from-[#4f39f6] to-[#124de4] bg-clip-text text-transparent font-semibold text-xl'>Products</a></li>
                         <li><a className='bg-gradient-to-l from-[#124de4] to-[#1c0368] bg-clip-text text-transparent font-semibold text-xl'>Features</a></li>
                         <li><a className='bg-gradient-to-l from-[#124de4] to-[#1c0368] bg-clip-text text-transparent font-semibold text-xl'>Pricing</a></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
                        <span  className='bg-gradient-to-l from-[#124de4] to-[#1c0368] bg-clip-text text-transparent font-semibold text-xl'>Login</span> 
                     
                     </div>
-                    <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#800cb9] rounded-full text-white">Get Started</a>
+                    <a className="btn bg-gradient-to-r from-[#4f39f6] to-[#800cb9] rounded-full text-white animate-pulse">Get Started</a>
                 </div>
             </div>
         </div>
