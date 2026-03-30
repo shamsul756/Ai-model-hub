@@ -1,5 +1,6 @@
 import React from 'react';
 import { CiShoppingCart } from "react-icons/ci";
+import ReadySection from './ReadySection/ReadySection';
 
 const Navbar = () => {
     return (
