@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Components/Navbar/Banner/Banner'
 import Footer from './Components/Navbar/Footer/Footer';
+import ReadySection from './Components/Navbar/ReadySection/ReadySection';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <Navbar />
       <Banner/>
 
-      
+      <ReadySection/>
       <Footer/>
     </>
   );
