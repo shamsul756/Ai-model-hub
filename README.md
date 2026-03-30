@@ -3,7 +3,10 @@
 ![alt text](image.png)
 <!-- hero desing complete  -->
 ![alt text](image-1.png)
-
+<!-- ready section desing complete -->
+![alt text](image-3.png)
+<!-- counter section and card section -->
+![alt text](image-2.png)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

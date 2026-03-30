@@ -1,0 +1,106 @@
+[
+  {
+    "img":"https://ibb.co.com/27fts6Yj",
+    "id": "prod_001",
+    "name": "ResumeAI Pro",
+    "description": "AI-powered resume builder that helps you craft ATS-optimized resumes tailored to specific job descriptions.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder",
+      "Job-match scoring"
+    ]
+  },
+  {
+    "img":"https://ibb.co.com/FkvKGNTB",
+    "id": "prod_002",
+    "name": "DesignFlow Studio",
+    "description": "A collaborative design tool for teams to create, prototype, and ship beautiful UI/UX designs faster.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best_seller",
+    "features": [
+      "Unlimited projects",
+      "Real-time collaboration",
+      "Component library",
+      "Prototype & animation",
+      "Dev handoff mode"
+    ]
+  },
+  {
+    "img":"https://ibb.co.com/TBmH7Gtk",
+    "id": "prod_003",
+    "name": "DataPulse Analytics",
+    "description": "Business intelligence platform to visualize your data, track KPIs, and generate automated reports.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ chart types",
+      "SQL query builder",
+      "Auto-refresh dashboards",
+      "CSV & API import",
+      "Slack/email alerts"
+    ]
+  },
+  {
+    "img":"https://ibb.co.com/6RXmZzg1",
+    "id": "prod_004",
+    "name": "TaskNest Teams",
+    "description": "Project management made simple. Plan sprints, assign tasks, and ship products with your team.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Kanban & Gantt views",
+      "Time tracking",
+      "Guest access",
+      "Recurring tasks",
+      "Mobile app"
+    ]
+  },
+  {
+    "img":"https://ibb.co.com/Q72J9tCP",
+    "id": "prod_005",
+    "name": "VaultPass Business",
+    "description": "Enterprise-grade password manager with zero-knowledge encryption and secure team credential sharing.",
+    "price": 149,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best_seller",
+    "features": [
+      "Unlimited passwords",
+      "Zero-knowledge encryption",
+      "Team sharing vaults",
+      "SSO integration",
+      "Audit logs"
+    ]
+  },
+  {
+    "img":"https://ibb.co.com/fznQ5TXy",
+    "id": "prod_006",
+    "name": "ContentCraft AI",
+    "description": "Generate high-quality blog posts, ad copy, and social media content in seconds using advanced AI.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ content templates",
+      "Tone customizer",
+      "SEO keyword insertion",
+      "Plagiarism checker",
+      "Brand voice training"
+    ]
+  }
+   
+
+]

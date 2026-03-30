@@ -5,6 +5,15 @@ import Footer from './Components/Navbar/Footer/Footer';
 import ReadySection from './Components/Navbar/ReadySection/ReadySection';
 import Stats from './Components/Navbar/text';
 import GetStarted from './Components/GetStarted/GetStarted';
+import CardData from './Components/CardData/CardData';
+
+const getDatas = async ()=> {
+  const res = await fetch("/data.json")
+  return res.json()
+
+}
+const dataPromises = getDatas()
+
 
 const App = () => {
   return (
@@ -12,6 +21,7 @@ const App = () => {
       <Navbar />
       <Banner/>
       <Stats/>
+      <CardData dataPromises={dataPromises}/>
 
 <GetStarted/>
 
