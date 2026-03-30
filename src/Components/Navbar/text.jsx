@@ -39,8 +39,8 @@ const CountUp = ({ target, suffix = '' }) => {
 
 const Stats = () => {
     return (
-        <div className="bg-gradient-to-r from-[#4f39f6] to-purple-500 py-10 mb-10">
-            <div className="flex justify-center items-center gap-16 text-white text-center">
+        <div className=" bg-gradient-to-r from-[#4f39f6] to-purple-500 py-4 mb-3 md:py-10 mb-10">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-16 text-white text-center">
 
                 <div>
                     <p className="text-6xl font-bold">

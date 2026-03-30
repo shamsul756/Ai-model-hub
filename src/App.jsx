@@ -4,6 +4,7 @@ import Banner from './Components/Navbar/Banner/Banner'
 import Footer from './Components/Navbar/Footer/Footer';
 import ReadySection from './Components/Navbar/ReadySection/ReadySection';
 import Stats from './Components/Navbar/text';
+import GetStarted from './Components/GetStarted/GetStarted';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <Banner/>
       <Stats/>
 
-
+<GetStarted/>
 
       
       <ReadySection/>

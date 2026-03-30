@@ -1,6 +1,6 @@
 import React from 'react';
 import bannerImg from '../../../../src/assets/products/banner.png';
-import icon from '../../../../src/assets/products/Rectangle 3.png'
+import icon from '../../../../src/assets/products/Rectangle 3.png';
 import { TbPlayerPlay } from 'react-icons/tb';
 const Banner = () => {
     return (
