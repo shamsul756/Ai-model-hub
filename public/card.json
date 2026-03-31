@@ -1,0 +1,105 @@
+[
+  {
+    "id": "card_001",
+    "img": "https://i.ibb.co.com/Lz9Y7X5T/Group-7-1.png",
+    "name": "ResumeAI Basic",
+    "description": "Perfect for individuals looking to build a professional, ATS-friendly resume quickly.",
+    "price": 12,
+    "period": "15day",
+    "tag": "Starter",
+    "tagType": "info",
+    "button": "Get Started Free",
+    "features": [
+      {
+        "text": "100+ professional templates",
+        "isAvailable": true
+      },
+      {
+        "text": "ATS optimization engine",
+        "isAvailable": true
+      },
+      {
+        "text": "Export to PDF & Word",
+        "isAvailable": true
+      },
+      {
+        "text": "Priority Email Support",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "id": "card_002",
+    "img": "https://i.ibb.co.com/mC6S0v5v/Group-7-5.png",
+    "name": "DesignFlow Pro",
+    "description": "Collaborative design tool for teams to create, prototype, and ship UI/UX designs.",
+    "price": 29,
+    "period": "mo",
+    "tag": "Most Popular",
+    "tagType": "warning",
+    "button": "Start Pro Trial",
+    "features": [
+      {
+        "text": "Unlimited active projects",
+        "isAvailable": true
+      },
+      {
+        "text": "Real-time team collaboration",
+        "isAvailable": true
+      },
+      {
+        "text": "Shared component library",
+        "isAvailable": true
+      },
+      {
+        "text": "Advanced animations",
+        "isAvailable": true
+      },
+      {
+        "text": "Developer handoff mode",
+        "isAvailable": true
+      },
+      {
+        "text": "Developer handoff mode",
+        "isAvailable": true
+      },
+      {
+        "text": "Developer handoff mode",
+        "isAvailable": true
+      },
+      {
+        "text": "Custom Domain Hosting",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "id": "card_003",
+    "img": "https://i.ibb.co.com/hR4z5V2Y/Group-7.png",
+    "name": "ContentCraft Enterprise",
+    "description": "The ultimate AI power-house for large scale content marketing and brand training.",
+    "price": 149,
+    "period": "yr",
+    "tag": "Best Value",
+    "tagType": "success",
+    "button": "Contact Sales",
+    "features": [
+      {
+        "text": "100+ professional templates",
+        "isAvailable": true
+      },
+      {
+        "text": "ATS optimization engine",
+        "isAvailable": true
+      },
+      {
+        "text": "Export to PDF & Word",
+        "isAvailable": true
+      },
+      {
+        "text": "Priority Email Support",
+        "isAvailable": true
+      }
+    ]
+  }
+]
