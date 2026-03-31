@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdOutlineHourglassEmpty, MdRemoveShoppingCart } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const EmptyCard = ({ carts, setCarts }) => {
 
@@ -7,11 +8,13 @@ const EmptyCard = ({ carts, setCarts }) => {
 
     const handlePayment = () => {
         setCarts([]);
+        toast.success("payment is successful")
     };
 
     const handleDelete = (item)=>{
         const filterArray = carts.filter(c=> c.id !== item.id)
-        setCarts(filterArray)
+        setCarts(filterArray);
+       toast.error("card is empty")
 
     }
 
