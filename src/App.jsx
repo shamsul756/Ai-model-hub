@@ -44,21 +44,21 @@ const App = () => {
       <Premium />
 
       {/* daisi tab */}
-      {/* name of each tab group should be unique */}
+      
       <div className="tabs tabs-box justify-center bg-transparent pb-10">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-35 text-xl font-semibold text-zinc-600" aria-label="Products"
           onClick={() => setActiveTab("Products")}
           defaultChecked />
-        <input type="radio" name="my_tabs_1" className="tab  rounded-full w-35 text-xl font-semibold text-zinc-600" aria-label="Cart"
+        <input type="radio" name="my_tabs_1" className="tab  rounded-full w-35 text-xl font-semibold text-zinc-600" aria-label={`Cart(${carts.length})`}
           onClick={() => setActiveTab("Cart")}
           defaultChecked />
 
       </div>
       {activeTab === "Products" && <CardData dataPromises={dataPromises} carts={carts} setCarts={setCarts} />}
-      {activeTab === "Cart" && <EmptyCard carts={carts} />}
+      {activeTab === "Cart" && <EmptyCard carts={carts} setCarts={setCarts} />}
       {/* daisi tab end */}
 
-      <CardData dataPromises={dataPromises} />
+      
 
       <GetStarted />
       <Pricing cardPromises={cardPromises} />

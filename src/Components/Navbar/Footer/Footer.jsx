@@ -114,7 +114,7 @@ const Footer = () => {
                     
                     </div>
                      {/* social icon  */}
-                      <div className='px-7 ml-[75px]'>
+                      <div className='px-1 ml-[45px]'>
                        <p className='text-white font-semi-bold text-xl'> Social Links </p>
                        <div className='list-none flex gap-3 mx-auto'>
                        <li className='text-white py-4 text-2xl hover:text-gray-600'><BsFacebook/></li>

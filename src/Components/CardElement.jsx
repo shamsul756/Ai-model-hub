@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const CardElement = ({data, carts, setCarts}) => {
      const [isBuy, setIsBuy] = useState(true)
    const handleBuyNow = () => {
   setIsBuy(false)
   setCarts([...carts, data]) 
+  toast("item added to cart")
 }
     return (
         <div>
