@@ -6,6 +6,7 @@ import ReadySection from './Components/Navbar/ReadySection/ReadySection';
 import Stats from './Components/Navbar/text';
 import GetStarted from './Components/GetStarted/GetStarted';
 import CardData from './Components/CardData/CardData';
+import Premium from './Components/Premium/Premium';
 
 const getDatas = async ()=> {
   const res = await fetch("/data.json")
@@ -21,6 +22,7 @@ const App = () => {
       <Navbar />
       <Banner/>
       <Stats/>
+      <Premium/>
       <CardData dataPromises={dataPromises}/>
 
 <GetStarted/>
